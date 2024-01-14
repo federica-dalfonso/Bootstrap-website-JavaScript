@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e5a2b2fa25.js" crossorigin="anonymous"></script>
+    <title>Geeks Mockup</title>
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.svg" alt="logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Browse
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Section</a></li>
+                        <li><a class="dropdown-item" href="#">Another section</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Landings
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Section</a></li>
+                        <li><a class="dropdown-item" href="#">Another section</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Section</a></li>
+                        <li><a class="dropdown-item" href="#">Another section</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Accounts
+                        <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Section</a></li>
+                        <li><a class="dropdown-item" href="#">Another section</a></li>
+                    </ul>
+                </li>
+            </ul>           
+        </div>
+
+        <div class="d-flex">
+           <div class="d-flex d-sm-flex align-items-center">
+                <div class="position-relative">
+                    <i class="fa-regular fa-bell px-3 py-3 rounded-circle bg-custom"></i>
+                    <span class="circle-purple-position bg-purple border border-2 border-light p-1 rounded-circle"></span>                
+                </div>
+                
+
+                <div class="container dropdown">
+                    <button class="dropdown-toggle py-0 border-0 rounded-circle position-relative" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="assets/avatar-1.jpg" class="navbar-profile rounded-circle" alt="user profile">
+                        <span class="circle-green-position bg-success p-1 rounded-circle border border-2 border-light"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li class="d-flex align-items-center">
+                            <div class="position-relative">
+                                <img src="assets/avatar-1.jpg" class="navbar-profile rounded-circle ms-3" alt="user profile">
+                                <span class="circle-green-position bg-success p-1 rounded-circle border border-2 border-light"></span>
+                            </div>                            
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="dropdown-header py-0 ps-2 text-dark fw-bold">Annette Black</p>
+                                <p class="dropdown-header py-0 ps-2">annette@geeksui.com</p>
+                            </div>                            
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fa-regular fa-user fa-xs pe-3"></i>Profile</a></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fa-regular fa-star fa-xs pe-3"></i>Subscription</a></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fa-solid fa-gear fa-xs pe-3"></i>Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li class="d-flex align-items-center"><a class="dropdown-item" href="#"><i class="fa-solid fa-power-off fa-xs pe-3"></i>Sign Out</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+        </div>        
+    </div>
+</nav>
+
+<!--HERO-->
+<div class="container-fluid hero-bg-color">
+    <div class="row align-items-center flex-lg-row flex-sm-column">
+        <div class="col-lg-4 col-sm-12 offset-lg-1 pt-sm-4 ps-sm-4 pb-sm-4">
+            <h1 class="text-light fw-bold">Welcome Web Students!</h1>  
+            <p class="text-light">Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
+            <div>
+                <button type="button" class="btn-hero-one rounded">Browse Courses</button>
+                <button type="button" class="btn-hero-two rounded">Are You Instructor?</button>
+            </div>            
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <img src="assets/hero-img.png" class="img-fluid" alt="hero image" >
+        </div>
+    </div>
+</div>
+
+<!--BANNER-->
+<div class="container-fluid py-3 bg-white shadow-sm mb-3">
+    <div class="container d-flex flex-lg-row flex-sm-column">
+        <div class="d-flex align-items-center pe-5 pb-sm-3">
+            <i class="fa-solid fa-video"></i>
+            <div class="ps-3">
+                <h6 class="mb-0">30,000 online courses</h6>
+                <p class="mb-0">Enjoy a variety of fresh topics</p>
+            </div>
+        </div>
+        <div class="d-flex align-items-center ps-3 pe-5 pb-sm-3">            
+            <i class="fa-solid fa-user-group"></i>
+            <div class="ps-3">
+                <h6 class="mb-0">Expert instruction</h6>
+                <p class="mb-0">Find the right instructor for you</p>
+            </div>
+        </div>
+        <div class="d-flex align-items-center ps-3 pb-sm-3">
+            <i class="fa-regular fa-clock my-clock"></i>
+            <div class="ps-3">
+                <h6 class="mb-0">Lifetime Access</h6>
+                <p class="mb-0">Learn on your schedule</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--SECTION 1-->
+<div class="container">
+    <div class="section-title pt-5 pb-3">
+        <h4>Recommended to you</h4>
+    </div>   
+
+    <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-4 position-relative">
+        <div class="col">
+            <div class="card h-100">
+                <img src="assets/course-graphql.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">GraphQL: introduction to graphQL for beginners</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 40m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">2.5</span>
+                        <span class="detail-size text-secondary">(1,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$500</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$600</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-5.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Brooklyn Simmons</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">A Complete Beginner's Guide to JavaScript</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>4h 10m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">3.5</span>
+                        <span class="detail-size text-secondary">(7,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$700</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$850</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-1.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Jenny Wilson</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col d-none d-lg-block">
+            <div class="card h-100">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">Beginning Node.js, Express & MongoDB Development</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 00m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">4.0</span>
+                        <span class="detail-size text-secondary">(15,700)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$800</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$950</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-3.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Sina Ray</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col d-none d-lg-block">
+            <div class="card h-100">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>1h 00m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Beginner</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">4.5</span>
+                        <span class="detail-size text-secondary">(2,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$170</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$220</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-7.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Sobo Rikhan</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+        <button class="bg-white rounded-circle my-arrow-left " type="button">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="bg-white rounded-circle my-arrow-right" type="button" >
+            <i class="fa-solid fa-chevron-right fa-sm "></i>
+        </button>
+    </div>
+
+</div>
+
+<!--SECTION 2 -->
+<div class="container">
+    <div class="section-title pt-5 pb-3">
+        <h4>Most popular</h4>
+    </div>   
+
+    <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-4 position-relative">
+        <div class="col">
+            <div class="card h-100">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">HTML Full Course - Build a Website Tutorial</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 16m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Beginner</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">3.0</span>
+                        <span class="detail-size text-secondary">(1,600)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$550</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$700</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-8.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Miston Wilson</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="assets/course-javascript.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">A Complete Beginner's Guide to JavaScript</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>4h 10m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">3.5</span>
+                        <span class="detail-size text-secondary">(7,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$700</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$850</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-1.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Jenny Wilson</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col d-none d-lg-block">
+            <div class="card h-100">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">Beginning Node.js, Express & MongoDB Development</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 00m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">4.0</span>
+                        <span class="detail-size text-secondary">(15,700)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$800</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$950</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-3.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Sina Ray</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col d-none d-lg-block">
+            <div class="card h-100">
+                <img src="assets/course-react.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">How to easily create a website with React</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 55m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Advance</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">4.5</span>
+                        <span class="detail-size text-secondary">(1,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$600</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$750</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-2.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">April Noms</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+        <button class="bg-white rounded-circle my-arrow-left " type="button">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="bg-white rounded-circle my-arrow-right" type="button" >
+            <i class="fa-solid fa-chevron-right fa-sm "></i>
+        </button>
+    </div>
+
+</div>
+
+<!--SECTION 3 -->
+<div class="container pb-5">
+    <div class="section-title pt-5 pb-3">
+        <h4>Trending</h4>
+    </div>   
+
+    <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-4 position-relative">
+        <div class="col">
+            <div class="card h-100">
+                <img src="assets/course-gatsby.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">Revolutionize how you build the web</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 46m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">2.0</span>
+                        <span class="detail-size text-secondary">(16,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$800</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$850</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-6.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Jenny Wilson</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="assets/course-html.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">HTML Full Course - Build a Website Tutorial</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>3h 16m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Beginner</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">3.0</span>
+                        <span class="detail-size text-secondary">(1,600)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$550</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$700</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-8.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Miston Wilson</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div>
+        </div>
+
+        <div class="col d-none d-lg-block">
+            <div class="card h-100">
+                <img src="assets/course-node.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">Beginning Node.js, Express & MongoDB Development</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>2h 00m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Intermediate</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-regular fa-star fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">4.0</span>
+                        <span class="detail-size text-secondary">(15,700)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$800</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$950</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-3.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Sina Ray</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div> 
+        </div>
+
+        <div class="col d-none d-lg-block">
+            <div class="card h-100">
+                <img src="assets/course-laravel.jpg" class="card-img-top" alt="course">
+                <div class="card-body">
+                    <h6 class="card-title fs-6">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+                    <div class="pb-2">
+                        <span class="detail-size"><i class="fa-regular fa-clock pe-1"></i>1h 00m</span>
+                        <span class="detail-size"><i class="fa-solid fa-signal pe-1"></i>Beginner</span>
+                    </div>
+                    <div class="pb-1">
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star fa-2xs text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-2xs text-warning"></i>
+                        <span class="detail-size text-warning">4.5</span>
+                        <span class="detail-size text-secondary">(2,500)</span>
+                    </div>
+                    <div class="pb-3">
+                        <span class="detail-size fw-bold">$170</span>
+                        <span class="detail-size text-decoration-line-through text-secondary">$220</span>
+                    </div> 
+                </div>                       
+                <div class="card-footer bg-white d-flex align-items-center justify-content-between">
+                    <div>
+                        <img src="assets/avatar-7.jpg" alt="profile image" class="card-profile-img rounded-circle">
+                        <span class="detail-size text-secondary">Sobo Rikhan</span>  
+                    </div>                        
+                    <i class="fa-regular fa-bookmark fa-xs"></i>
+                </div>        
+            </div>
+        </div>
+        <button class="bg-white rounded-circle my-arrow-left " type="button">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="bg-white rounded-circle my-arrow-right" type="button" >
+            <i class="fa-solid fa-chevron-right fa-sm "></i>
+        </button>
+    </div>
+
+</div>
+
+<!--footer-->
+<div class="container pt-5">
+        <footer class="d-flex flex-lg-row flex-sm-column justify-content-between justify-content-sm-center align-items-center py-3 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <span class="mb-3 mb-md-0 text-muted mb-sm-0">© 2022 Geeks. All Rights reserved.</span>
+            </div>
+            <div>
+                <span class="text-muted pe-2 pe-sm-3">Privacy</span>
+                <span class="text-muted pe-2 pe-sm-3">Terms</span>
+                <span class="text-muted pe-2 pe-sm-3">Feedback</span>
+                <span class="text-muted">Support</span>
+            </div>                    
+        </footer>
+</div>    
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

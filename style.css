@@ -1,0 +1,139 @@
+/*general*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e6ed;
+}
+
+/*navbar*/
+a.nav-link {
+    color: #000 !important;
+}
+
+a.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+button.dropdown-toggle::after {
+    display: none;
+}
+
+img.navbar-profile {
+    width: 2.5em;
+    height: 2.5em;
+    object-fit: cover;
+}
+
+i {
+    color: #79758F;
+}
+
+i.bg-custom {
+    background-color: #efeef1;
+}
+
+span.circle-purple-position {
+    position: absolute;
+    top: 0.2em;
+    right: 0.4em;
+}
+
+span.bg-purple {
+    background-color: #7550FE;                                                                                                             ;
+}
+
+span.circle-green-position {
+    position: absolute;
+    top: 1.8em;
+    right: 0.2em;
+}
+
+span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(117,80,254)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: solid #7550FE;
+}
+
+/*hero*/
+div.hero-bg-color {
+    background-color: #7550FE;
+}
+
+button.btn-hero-one {
+    background-color: #1ACB98;
+    border: none;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+
+button.btn-hero-two {
+    background-color: white;
+    border: none;
+    padding: 0.5em 1em;
+}
+
+/*banner*/
+.fa-video, .fa-user-group, .my-clock {
+    background-color: #FFEEDA;
+    padding: 0.8em;
+    border-radius: 50%;
+    color: #C18184;
+}
+
+/*section cards*/
+img.card-profile-img {
+    width: 1.5em;
+}
+
+span.detail-size {
+    font-size: 0.9rem;
+}
+
+i.fa-signal {
+    color: #7550FE;
+}
+
+/*carousel items*/
+button.my-arrow-left, button.my-arrow-right {
+    width: 2.5em;
+    height: 2.5em;
+    border: none;
+    position: absolute;
+    top: 50%;
+}
+
+button.my-arrow-left {
+    left: -4%
+}
+
+button.my-arrow-right {
+    right: -4%;
+}
+
+/*footer*/
+span.text-muted {
+    font-size: 0.8rem;
+}
+
+/*ANIMATIONS*/
+i.fa-bookmark:hover {
+    cursor: pointer;  
+}
+
+div.card:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease-in, box-shadow 0.3 ease-in;
+}
+
+.zoom {   
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px rgba(170, 169, 169, 0.875)
+}
+
